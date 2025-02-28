@@ -1,0 +1,25 @@
+{
+    "api_key": "Your API key",
+    "api_secret": "Your secret key",
+    "rsi_period": 14,
+    "time_interval": 10,
+    "profit_target": 2,
+    "trailing_stop_loss_percentage": 1,
+    "symbols": [
+        {
+            "symbol": "SHIBUSDT",
+            "amount_usdt": 1.5,
+            "rounding": "floor"
+        },
+        {
+            "symbol": "DOGEUSDT",
+            "amount_usdt": 1.5,
+            "rounding": "round"
+        },
+        {
+            "symbol": "FLOKIUSDT",
+            "amount_usdt": 1.5,
+            "rounding": "floor"
+        }
+    ]
+}
